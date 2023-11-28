@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.form select {
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.form div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.submit {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    height: 40px;
+    background-color: red;
+    border: 1px solid #000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.errors {
+    color: red;
+    margin-bottom: 20px;
+}

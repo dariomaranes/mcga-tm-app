@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+}
+
+.form input{
+    margin-bottom: 20px;
+}
+
+.form div{
+    margin-top: 20px;
+}
+
+.errors {
+    color: red;
+}
