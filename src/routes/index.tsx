@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Root = () =>{
     return (
       <>
@@ -6,10 +8,10 @@ const Root = () =>{
           <nav>
             <ul>
               <li>
-                <a href={`/login`}>Login</a>
+                <Link to={'/login'}>Login</Link>
               </li>
               <li>
-                <a href={`/register`}>Register</a>
+                <Link to={'/register'}>Register</Link>
               </li>
             </ul>
           </nav>
