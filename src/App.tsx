@@ -5,6 +5,7 @@ import './App.css'
 // import ExampleHook from './components/exampleHook'
 // import ExampleForm from './components/exampleForm'
 import RegisterFrom from './components/registerForm'
+// import LoginForm from './components/loginForm'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         </a>
       </div>
       <RegisterFrom />
+      {/* <LoginForm /> */}
       {/* <h1>Vite + React</h1>
       <ExampleHook /> */}
       {/* <h1>React Hook Form</h1> */}
